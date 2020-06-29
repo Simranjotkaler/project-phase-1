@@ -1,0 +1,39 @@
+.main {
+	text-align: center;
+	font-family: 'Times New Roman';
+	height: 100%;
+	margin: auto;
+	width: 33.33%;
+	border: 3px solid green;
+	float: left;		
+}
+
+.container {
+ overflow: auto;
+	text-align: center;
+	height: 100%;
+	margin: auto;
+	width: 60%;
+	border: 3px solid green;
+	float: right;	
+ }
+
+.container div {
+	padding: 20px;
+	width: 100%;
+	min-height: 30px;
+}
+
+.complete {
+	padding: 10px;
+	display: block;
+	border: 1px solid lightgreen;
+	text-decoration: line-through;
+}
+
+.incomplete {
+	padding: 10px;
+	display: block;
+	border: 1px solid darkred;
+	text-decoration: none;
+}
