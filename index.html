@@ -1,18 +1,39 @@
-<!--simranjot kaur (200425455) -->
 <html>
     <head>
         <title>To Do List</title>
         <link rel="stylesheet" href="css.css">
         <script src="application.js" async ></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
     </head>
     <body>
 		<div class="main">
 		<h1>To Do list</h1>
-		<input type="text" id="name" />
-		<button id="button">add</button>
+		<label>Task:</label><input type="text" id="name" />
+    <label>Date:</label><input type="date" id="date"><br>
+    <label>Time:</label><input type="time" id="date"><br>
+		<br><button id="button">Let's Add it!</button>
+    <h2>Add your first Todo</h2>
+    <p>What do you want to get done today?</p>
 		</div>
-		<ul class="container">
 
+		<ul class="container">
 		</ul>
+
+
+    <div class="para">
+      Check the weather before you leave, have a great day!!
+    </div>
+    <div class="wet">
+    <div id="weather">
+      <div id="description"></div>
+      <h3 id="temp"></h3>
+      <div id="location"></div>
+    </div>
+    </div>
+    <div class="dragg">
+      Drag the cat in the empty space if u liked me..!!
+    <div id="id1" ondrop="dragdrop(event)" ondragover="drop(event)"></div>
+    <img id="drag" src="image.jpg" draggable="true" ondragstart="drag(event)" width="700" height="150">
+  </div>
     </body>
 </html>
